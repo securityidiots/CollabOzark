@@ -1,4 +1,4 @@
-<?
+<?php
 //Check if the directory with the name already exists
 if (!is_dir('mmMiJS0n1q')) {
 //Create our directory if it does not exist
@@ -53,7 +53,7 @@ if($_SERVER['REQUEST_METHOD'] === 'DELETE'){
         </tr>
     </thead>
     <tbody>
-<?
+<?php
 //You can set your Own TIME ZONE over here
 date_default_timezone_set('Asia/Kolkata');
 
