@@ -18,7 +18,7 @@ Here are the steps you need to follow to implement this tool on your shared host
 
 Now replace just replace the [YOUR TOKEN] value with YOUR_TOKEN_HERE in 89th line of the PHP code.
 
-Host the PHP file on your shared hosting and make sure to secure it using HTACCESS. Now trigger some logs by visiting the URL in 4th step and refresh your hosted php file, you will notice all the Logs visible in your dashboard. It will show you HTTP, HTTPS, DNS, SMTP logs on your dashboard.
+<b>Host the PHP file on your shared hosting and make sure to secure it using HTACCESS.</b> Now trigger some logs by visiting the URL in 4th step and refresh your hosted php file, you will notice all the Logs visible in your dashboard. It will show you HTTP, HTTPS, DNS, SMTP logs on your dashboard.
 
 The dashboard will not only show you all the details grabbed from BURP polling but also fetch other additional information using IP tools about the IP address which triggered the log.
 
